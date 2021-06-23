@@ -27,10 +27,10 @@ body {
   border: 1px solid white;
   outline: none;
   background-color: #f54748;
-}
 
-.calculator-grid > button:hover {
-  background-color: #f5e6ca;
+  &:hover {
+    background-color: #f5e6ca;
+  }
 }
 
 .span-two {
@@ -47,13 +47,14 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
-}
 
-.output .previous-operand {
-  color: #f5e6ca;
-  font-size: 1.5rem;
-}
-.output .current-operand {
-  color: #f5e6ca;
-  font-size: 2.5rem;
+  & .previous-operand {
+    color: #f5e6ca;
+    font-size: 1.5rem;
+  }
+
+  & .current-operand {
+    color: #f5e6ca;
+    font-size: 2.5rem;
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "calculator-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahmi1507/calculator-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahmi1507/calculator-JS/issues"
+  },
+  "homepage": "https://github.com/fahmi1507/calculator-JS#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
